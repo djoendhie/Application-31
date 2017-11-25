@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4074FB14C7BCD7032DDBEAB8 /* Pods_Sumsel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50326A357F30309F35169DF /* Pods_Sumsel.framework */; };
+		D62737411FC7FE3F0099C39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62737401FC7FE3F0099C39C /* AppDelegate.swift */; };
+		D62737431FC7FE3F0099C39C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62737421FC7FE3F0099C39C /* ViewController.swift */; };
+		D62737461FC7FE3F0099C39C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62737441FC7FE3F0099C39C /* Main.storyboard */; };
+		D62737481FC7FE3F0099C39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62737471FC7FE3F0099C39C /* Assets.xcassets */; };
+		D627374B1FC7FE3F0099C39C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62737491FC7FE3F0099C39C /* LaunchScreen.storyboard */; };
+		D62737561FC7FE400099C39C /* SumselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62737551FC7FE400099C39C /* SumselTests.swift */; };
+		D62737611FC7FE400099C39C /* SumselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62737601FC7FE400099C39C /* SumselUITests.swift */; };
+		D627376F1FC802AE0099C39C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D627376E1FC802AE0099C39C /* DetailViewController.swift */; };
+		D62737711FC802BF0099C39C /* ResepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62737701FC802BF0099C39C /* ResepTableViewController.swift */; };
+		D62737731FC802D80099C39C /* ResepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62737721FC802D80099C39C /* ResepTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D62737521FC7FE3F0099C39C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62737351FC7FE3E0099C39C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D627373C1FC7FE3E0099C39C;
+			remoteInfo = Sumsel;
+		};
+		D627375D1FC7FE400099C39C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62737351FC7FE3E0099C39C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D627373C1FC7FE3E0099C39C;
+			remoteInfo = Sumsel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B217ADE8C3761D2D0300881 /* Pods-Sumsel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumsel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sumsel/Pods-Sumsel.release.xcconfig"; sourceTree = "<group>"; };
+		A50326A357F30309F35169DF /* Pods_Sumsel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sumsel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D627373D1FC7FE3E0099C39C /* Sumsel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sumsel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62737401FC7FE3F0099C39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D62737421FC7FE3F0099C39C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D62737451FC7FE3F0099C39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D62737471FC7FE3F0099C39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D627374A1FC7FE3F0099C39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D627374C1FC7FE3F0099C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62737511FC7FE3F0099C39C /* SumselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62737551FC7FE400099C39C /* SumselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumselTests.swift; sourceTree = "<group>"; };
+		D62737571FC7FE400099C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D627375C1FC7FE400099C39C /* SumselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62737601FC7FE400099C39C /* SumselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumselUITests.swift; sourceTree = "<group>"; };
+		D62737621FC7FE400099C39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D627376E1FC802AE0099C39C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		D62737701FC802BF0099C39C /* ResepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewController.swift; sourceTree = "<group>"; };
+		D62737721FC802D80099C39C /* ResepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewCell.swift; sourceTree = "<group>"; };
+		D63A58A3138ED397B346F075 /* Pods-Sumsel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumsel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sumsel/Pods-Sumsel.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D627373A1FC7FE3E0099C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4074FB14C7BCD7032DDBEAB8 /* Pods_Sumsel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D627374E1FC7FE3F0099C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62737591FC7FE400099C39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EF98BE1EB0E18EE9B768355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A50326A357F30309F35169DF /* Pods_Sumsel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C198AB9CBE8776D2F4EFFF71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D63A58A3138ED397B346F075 /* Pods-Sumsel.debug.xcconfig */,
+				4B217ADE8C3761D2D0300881 /* Pods-Sumsel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D62737341FC7FE3D0099C39C = {
+			isa = PBXGroup;
+			children = (
+				D627373F1FC7FE3E0099C39C /* Sumsel */,
+				D62737541FC7FE3F0099C39C /* SumselTests */,
+				D627375F1FC7FE400099C39C /* SumselUITests */,
+				D627373E1FC7FE3E0099C39C /* Products */,
+				C198AB9CBE8776D2F4EFFF71 /* Pods */,
+				8EF98BE1EB0E18EE9B768355 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D627373E1FC7FE3E0099C39C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D627373D1FC7FE3E0099C39C /* Sumsel.app */,
+				D62737511FC7FE3F0099C39C /* SumselTests.xctest */,
+				D627375C1FC7FE400099C39C /* SumselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D627373F1FC7FE3E0099C39C /* Sumsel */ = {
+			isa = PBXGroup;
+			children = (
+				D62737401FC7FE3F0099C39C /* AppDelegate.swift */,
+				D62737421FC7FE3F0099C39C /* ViewController.swift */,
+				D62737441FC7FE3F0099C39C /* Main.storyboard */,
+				D62737471FC7FE3F0099C39C /* Assets.xcassets */,
+				D62737491FC7FE3F0099C39C /* LaunchScreen.storyboard */,
+				D627374C1FC7FE3F0099C39C /* Info.plist */,
+				D627376E1FC802AE0099C39C /* DetailViewController.swift */,
+				D62737701FC802BF0099C39C /* ResepTableViewController.swift */,
+				D62737721FC802D80099C39C /* ResepTableViewCell.swift */,
+			);
+			path = Sumsel;
+			sourceTree = "<group>";
+		};
+		D62737541FC7FE3F0099C39C /* SumselTests */ = {
+			isa = PBXGroup;
+			children = (
+				D62737551FC7FE400099C39C /* SumselTests.swift */,
+				D62737571FC7FE400099C39C /* Info.plist */,
+			);
+			path = SumselTests;
+			sourceTree = "<group>";
+		};
+		D627375F1FC7FE400099C39C /* SumselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D62737601FC7FE400099C39C /* SumselUITests.swift */,
+				D62737621FC7FE400099C39C /* Info.plist */,
+			);
+			path = SumselUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D627373C1FC7FE3E0099C39C /* Sumsel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62737651FC7FE400099C39C /* Build configuration list for PBXNativeTarget "Sumsel" */;
+			buildPhases = (
+				2727D1AC89636BEC2F2D6CD0 /* [CP] Check Pods Manifest.lock */,
+				D62737391FC7FE3E0099C39C /* Sources */,
+				D627373A1FC7FE3E0099C39C /* Frameworks */,
+				D627373B1FC7FE3E0099C39C /* Resources */,
+				5B0F16CBCF3480FF2515B6A7 /* [CP] Embed Pods Frameworks */,
+				16E83D8636285B26BAC4C9A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sumsel;
+			productName = Sumsel;
+			productReference = D627373D1FC7FE3E0099C39C /* Sumsel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D62737501FC7FE3F0099C39C /* SumselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62737681FC7FE400099C39C /* Build configuration list for PBXNativeTarget "SumselTests" */;
+			buildPhases = (
+				D627374D1FC7FE3F0099C39C /* Sources */,
+				D627374E1FC7FE3F0099C39C /* Frameworks */,
+				D627374F1FC7FE3F0099C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62737531FC7FE3F0099C39C /* PBXTargetDependency */,
+			);
+			name = SumselTests;
+			productName = SumselTests;
+			productReference = D62737511FC7FE3F0099C39C /* SumselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D627375B1FC7FE400099C39C /* SumselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D627376B1FC7FE400099C39C /* Build configuration list for PBXNativeTarget "SumselUITests" */;
+			buildPhases = (
+				D62737581FC7FE400099C39C /* Sources */,
+				D62737591FC7FE400099C39C /* Frameworks */,
+				D627375A1FC7FE400099C39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D627375E1FC7FE400099C39C /* PBXTargetDependency */,
+			);
+			name = SumselUITests;
+			productName = SumselUITests;
+			productReference = D627375C1FC7FE400099C39C /* SumselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62737351FC7FE3E0099C39C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D627373C1FC7FE3E0099C39C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D62737501FC7FE3F0099C39C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D627373C1FC7FE3E0099C39C;
+					};
+					D627375B1FC7FE400099C39C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D627373C1FC7FE3E0099C39C;
+					};
+				};
+			};
+			buildConfigurationList = D62737381FC7FE3E0099C39C /* Build configuration list for PBXProject "Sumsel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62737341FC7FE3D0099C39C;
+			productRefGroup = D627373E1FC7FE3E0099C39C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D627373C1FC7FE3E0099C39C /* Sumsel */,
+				D62737501FC7FE3F0099C39C /* SumselTests */,
+				D627375B1FC7FE400099C39C /* SumselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D627373B1FC7FE3E0099C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D627374B1FC7FE3F0099C39C /* LaunchScreen.storyboard in Resources */,
+				D62737481FC7FE3F0099C39C /* Assets.xcassets in Resources */,
+				D62737461FC7FE3F0099C39C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D627374F1FC7FE3F0099C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D627375A1FC7FE400099C39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E83D8636285B26BAC4C9A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sumsel/Pods-Sumsel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2727D1AC89636BEC2F2D6CD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sumsel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0F16CBCF3480FF2515B6A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sumsel/Pods-Sumsel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sumsel/Pods-Sumsel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62737391FC7FE3E0099C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D627376F1FC802AE0099C39C /* DetailViewController.swift in Sources */,
+				D62737731FC802D80099C39C /* ResepTableViewCell.swift in Sources */,
+				D62737431FC7FE3F0099C39C /* ViewController.swift in Sources */,
+				D62737411FC7FE3F0099C39C /* AppDelegate.swift in Sources */,
+				D62737711FC802BF0099C39C /* ResepTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D627374D1FC7FE3F0099C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62737561FC7FE400099C39C /* SumselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62737581FC7FE400099C39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62737611FC7FE400099C39C /* SumselUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D62737531FC7FE3F0099C39C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D627373C1FC7FE3E0099C39C /* Sumsel */;
+			targetProxy = D62737521FC7FE3F0099C39C /* PBXContainerItemProxy */;
+		};
+		D627375E1FC7FE400099C39C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D627373C1FC7FE3E0099C39C /* Sumsel */;
+			targetProxy = D627375D1FC7FE400099C39C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D62737441FC7FE3F0099C39C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D62737451FC7FE3F0099C39C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D62737491FC7FE3F0099C39C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D627374A1FC7FE3F0099C39C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D62737631FC7FE400099C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D62737641FC7FE400099C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D62737661FC7FE400099C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63A58A3138ED397B346F075 /* Pods-Sumsel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sumsel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Sumsel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D62737671FC7FE400099C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B217ADE8C3761D2D0300881 /* Pods-Sumsel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sumsel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Sumsel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D62737691FC7FE400099C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SumselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sumsel.app/Sumsel";
+			};
+			name = Debug;
+		};
+		D627376A1FC7FE400099C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SumselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sumsel.app/Sumsel";
+			};
+			name = Release;
+		};
+		D627376C1FC7FE400099C39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SumselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sumsel;
+			};
+			name = Debug;
+		};
+		D627376D1FC7FE400099C39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SumselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.SumselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sumsel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62737381FC7FE3E0099C39C /* Build configuration list for PBXProject "Sumsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62737631FC7FE400099C39C /* Debug */,
+				D62737641FC7FE400099C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62737651FC7FE400099C39C /* Build configuration list for PBXNativeTarget "Sumsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62737661FC7FE400099C39C /* Debug */,
+				D62737671FC7FE400099C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62737681FC7FE400099C39C /* Build configuration list for PBXNativeTarget "SumselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62737691FC7FE400099C39C /* Debug */,
+				D627376A1FC7FE400099C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D627376B1FC7FE400099C39C /* Build configuration list for PBXNativeTarget "SumselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D627376C1FC7FE400099C39C /* Debug */,
+				D627376D1FC7FE400099C39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62737351FC7FE3E0099C39C /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Sumsel {
+  umbrella header "Pods-Sumsel-umbrella.h"
+
+  export *
+  module * { export * }
+}
