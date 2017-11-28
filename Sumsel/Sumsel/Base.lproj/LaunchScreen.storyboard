@@ -31,14 +31,14 @@
                                     <constraint firstAttribute="width" constant="375" id="dsH-O8-s3U"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="Gsf-sd-a6l">
-                                <rect key="frame" x="127" y="494" width="121" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="Gsf-sd-a6l">
+                                <rect key="frame" x="127" y="473" width="121" height="97"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="tth-YM-oKE"/>
+                                    <constraint firstAttribute="height" constant="97" id="021-dx-7Mp"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resep Masakan Sumatera Selatan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gmr-VZ-vbq">
-                                <rect key="frame" x="13" y="317" width="349.5" height="25"/>
+                                <rect key="frame" x="13" y="317" width="350" height="25"/>
                                 <fontDescription key="fontDescription" name="Baskerville-BoldItalic" family="Baskerville" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,15 +47,15 @@
                         <color key="backgroundColor" red="0.99169057607650757" green="0.77991443872451782" blue="0.46894288063049316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="uYN-MV-7II" firstAttribute="width" secondItem="uYN-MV-7II" secondAttribute="height" multiplier="75:44" id="04w-8w-wel"/>
-                            <constraint firstItem="Gsf-sd-a6l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="144-XJ-kGC"/>
                             <constraint firstItem="uYN-MV-7II" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="HYG-na-hpG"/>
                             <constraint firstItem="uYN-MV-7II" firstAttribute="width" secondItem="uYN-MV-7II" secondAttribute="height" multiplier="75:44" id="HxN-Rn-Hx8"/>
+                            <constraint firstItem="Gsf-sd-a6l" firstAttribute="centerX" secondItem="Gmr-VZ-vbq" secondAttribute="centerX" id="I1T-px-yF9"/>
                             <constraint firstItem="uYN-MV-7II" firstAttribute="width" secondItem="uYN-MV-7II" secondAttribute="height" multiplier="75:44" id="NRg-PU-QYa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gsf-sd-a6l" secondAttribute="bottom" constant="97" id="T9L-Tk-S7i"/>
+                            <constraint firstItem="Gsf-sd-a6l" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OPu-yZ-CPA"/>
                             <constraint firstItem="uYN-MV-7II" firstAttribute="width" secondItem="uYN-MV-7II" secondAttribute="height" multiplier="75:44" id="UHU-Uc-MFX"/>
-                            <constraint firstItem="Gmr-VZ-vbq" firstAttribute="centerX" secondItem="Gsf-sd-a6l" secondAttribute="centerX" id="VfK-CJ-X5e"/>
+                            <constraint firstItem="Gsf-sd-a6l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="UhP-el-eBN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gsf-sd-a6l" secondAttribute="bottom" constant="97" id="VUS-aP-RUp"/>
                             <constraint firstItem="Gmr-VZ-vbq" firstAttribute="top" secondItem="uYN-MV-7II" secondAttribute="bottom" constant="1" id="e1V-by-VgR"/>
-                            <constraint firstItem="Gsf-sd-a6l" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tza-Tc-g0G"/>
                             <constraint firstItem="Gmr-VZ-vbq" firstAttribute="centerX" secondItem="uYN-MV-7II" secondAttribute="centerX" id="wFn-UB-R64"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -63,11 +63,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="225" height="225"/>
         <image name="images" width="341" height="148"/>
-        <image name="images-1" width="225" height="225"/>
     </resources>
 </document>
